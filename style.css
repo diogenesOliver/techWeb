@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 *{
     padding: 0;
     margin: 0;
     color: white;
-    font-family: Nunito;
+    font-family: Raleway;
 }
 
 .container{
@@ -27,4 +27,38 @@ li{
     display: inline-block;
     margin: 75px;
     cursor: pointer;
+}
+
+.content{
+    position: relative;
+    height: 500px;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 80px;
+    background:transparent
+}
+
+#web{
+    background-color: rgb(37, 131, 255);
+    border-radius: 5px;
+}
+
+#text{
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.sub-text-content{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.image{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 1100px;
+}
+
+.tech{
+    height: 500px;
 }
