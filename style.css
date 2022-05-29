@@ -12,8 +12,14 @@ body{
     font-family: Raleway;
 }
 
+:root{
+    --button-enter: hsl(0, 0%, 100%);
+    --color-element: hsl(0, 1%, 15%);
+    --backgorund-default: linear-gradient(to right, rgb(0, 35, 80), rgb(18, 128, 218)); 
+}
+
 .container {
-    background: linear-gradient(to right, rgb(0, 60, 139), rgb(3, 100, 180));
+    background: var(--backgorund-default);
     width: 100%;
     height: 870px;
 }
@@ -103,9 +109,9 @@ li {
 }
 
 .content-about{
-    width: 500px;
-    height: 700px;
-    background-color: rgba(37, 131, 255, .4);
+    width: 700px;
+    height: 600px;
+    background: rgba(37, 131, 255);
     float: right;
     margin-right: 250px;
     border-radius: 10px;
@@ -131,8 +137,13 @@ li {
     width: 150px;
     border: none;
     outline: none;
-    background-color: rgb(37, 131, 255);
+    background-color: var(--button-enter);
+    color: var(--color-element);
     border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.content-about p{
+    font-weight: 700;
 }
