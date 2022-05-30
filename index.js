@@ -9,8 +9,8 @@ let typed = new Typed(titleInfo, {
 })
 
 exploreButton.addEventListener('click', () => {
-    window.scroll({
-        top: window.innerHeight,
+    scroll({
+        top: innerHeight,
         behavior: "smooth"
     })
 })
