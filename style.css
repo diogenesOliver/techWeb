@@ -7,8 +7,15 @@
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     height: 2000px;
+
+    background: var(--backgorund-body);
+
     font-family: Raleway;
 }
 
@@ -16,8 +23,13 @@ body{
     --button-enter: hsl(0, 0%, 100%);
     --color-element: hsl(0, 1%, 15%);
     --backgorund-default: linear-gradient(to right, rgb(0, 35, 80), rgb(18, 128, 218)); 
+    --backgorund-body: rgb(231, 229, 229);
 
     --width-vw: 100%
+}
+
+a{
+    text-decoration: none;
 }
 
 .container {
@@ -110,8 +122,6 @@ li {
 
 #phone-image{
     width: 500px;
-    margin-top: 150px;
-    margin-left: 200px;
 }
 
 .sub-plataform{
@@ -126,7 +136,7 @@ li {
     width: 700px;
     height: 600px;
 
-    margin-right: 925px;
+    margin-right: 720px;
     margin-top: 15px;
 
     border-radius: 10px;
