@@ -14,3 +14,15 @@ exploreButton.addEventListener('click', () => {
         behavior: "smooth"
     })
 })
+
+ScrollReveal({
+    origin: 'right',
+    distance: '300px',
+    duration: 2000
+}).reveal('#phone-image');
+
+ScrollReveal({
+    origin: 'left',
+    distance: '300px',
+    duration: 2000
+}).reveal('.content-about, .sub');
