@@ -12,14 +12,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    height: 2000px;
-
-    background: var(--backgorund-body);
-
-    font-family: Raleway;
-}
-
 :root{
     --button-enter: hsl(0, 0%, 100%);
     --color-element: hsl(0, 1%, 15%);
@@ -27,6 +19,12 @@ body{
     --backgorund-body: rgb(231, 229, 229);
 
     --width-vw: 100%
+}
+
+body{
+    background: var(--backgorund-body);
+    font-family: Raleway;
+    overflow-x: hidden;
 }
 
 a{
@@ -51,7 +49,7 @@ nav .wrapper{
     align-items: center;
 }
 
-#logo {
+.wrapper img {
     width: 150px;
     cursor: pointer;
 }
@@ -73,7 +71,7 @@ li {
     background: transparent
 }
 
-#web {
+.content h2 span {
     background-color: rgb(37, 131, 255);
     border-radius: 5px;
 }
@@ -89,7 +87,7 @@ li {
     font-size: 20px;
 }
 
-#text {
+.text-animation h4 {
     position: absolute;
     margin-left: 10px;
 }
@@ -100,7 +98,7 @@ li {
     margin-left: 1100px;
 }
 
-#btn{
+.container button{
     height: 40px;
     width: 150px;
     margin-left: 830px;
@@ -121,7 +119,7 @@ li {
     width: var(--width-vw);
 }
 
-#phone-image{
+.sub-plataform img{
     width: 500px;
 }
 
@@ -171,7 +169,7 @@ li {
     line-height: 30px;
 }
 
-#enter{
+.content-about button{
     height: 40px;
     width: 150px;
     border: none;
