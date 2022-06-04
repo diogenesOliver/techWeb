@@ -1,3 +1,29 @@
-<h1>[PROJETO EM ANDAMENTO...]</h1>
+<h1>[PROJECT IN PROGRESS...]</h1>
 
-<p> O projeto consiste em criar a Home Page de uma plataforma de cursos online focada para entusiastas da programação </p>
+<p> The objective of this project is to create the page of an online course platform for developers. </p>
+
+<br>
+
+<h2> This is a top of page </h2>
+
+<br>
+
+<img 
+style='border-radius: 10px'
+src='./assets/Images_from_readme/first_image.png'
+/>
+
+<br>
+
+<h3> The following technologies are used in this project: </h3> <br>
+
+<ul>
+    CDN: <a> https://github.com/mattboldt/typed.js/ </a> <br><br>
+    
+Library: <a> https://scrollrevealjs.org/ </a> <br><br>
+
+    - HTML
+    - CSS
+    - JavaScript
+
+<ul>
