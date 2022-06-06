@@ -17,10 +17,13 @@ src='./assets/Images_from_readme/first_image.png'
 
 <h3> The following technologies are used in this project: </h3> <br>
 
-<ul>
-    CDN: <a> https://github.com/mattboldt/typed.js/ </a> <br><br>
+CDN: <a> https://github.com/mattboldt/typed.js/ </a>
     
-Library: <a> https://scrollrevealjs.org/ </a> <br><br>
+Library: <a> https://scrollrevealjs.org/ </a>
+
+<br><br>
+
+<ul>
 
     - HTML
     - CSS
