@@ -14,9 +14,14 @@ html{
 
 :root{
     --button-enter: hsl(0, 0%, 100%);
-    --color-element: hsl(0, 1%, 15%);
     --backgorund-default: linear-gradient(to right, rgb(0, 35, 80), rgb(18, 128, 218)); 
-    --backgorund-body: rgb(231, 229, 229);
+    --backgorund-body: rgb(241, 239, 239);
+
+    --title-color: hsl(250, 6%, 19%);
+    --text-color: hsl(0, 1%, 33%);
+
+    --border-color: hsl(232, 17%, 91%);
+    --border-element: 1px solid var(--border-color);
 
     --width-vw: 100%
 }
@@ -114,73 +119,83 @@ li {
     height: 500px;
 }
 
-.plataform{
-    margin-top: 200px;
-    width: var(--width-vw);
-}
+/* Plataform */
 
-.sub-plataform img{
-    width: 500px;
+.plataform{
+    margin-top: 100px;
+    width: var(--width-vw);
 }
 
 .sub-plataform{
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    gap: 200px;
 }
 
-.sub{
-    position: absolute;
+.sub-plataform img{
+    width: 500px;
 
-    width: 700px;
-    height: 600px;
-
-    margin-right: 720px;
-    margin-top: 15px;
-
+    border: var(--border-element);
     border-radius: 10px;
 
-    z-index: -1;
-
-    background: rgb(4, 78, 173);
+    padding: 20px;
 }
 
 .content-about{
-    width: 700px;
-    height: 600px;
-    margin-right: 250px;
+    width: 500px;
+
+    border: var(--border-element);
     border-radius: 10px;
 
-    background: rgba(37, 131, 255);
-    text-align: center;
+    padding: 20px;
 }
 
-.about-title{
-    margin-top: 35px;
-}
+.content-about h2{
+    font-size: 30px;
+    line-height: 1.5;
 
-.about-subtitle{
-    margin-top: 60px;
-    margin-bottom: 70px;
-}
-
-.about-text{
-    margin-bottom: 70px;
-    line-height: 30px;
-}
-
-.content-about button{
-    height: 40px;
-    width: 150px;
-    border: none;
-    outline: none;
-    background-color: var(--button-enter);
-    color: var(--color-element);
-    border-radius: 20px;
-    font-size: 20px;
-    cursor: pointer;
+    color: var(--title-color);
 }
 
 .content-about p{
+    color: var(--text-color);
+
+    font-size: 20px;
     font-weight: 700;
+
+    margin-top: 60px;
+
+    line-height: 1.7;
+}
+
+/* Informações sobre a plataforma */
+
+.info-about-plataform{
+
+    background: var(--backgorund-default);
+    height: 700px;
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-around;
+
+    gap: 20px;
+}
+
+.info-about-plataform img{
+    height: 350px;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-about-plataform h2{
+    color: white;
+    font-size: 80px;
 }

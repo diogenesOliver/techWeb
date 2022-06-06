@@ -21,7 +21,7 @@ CDN: <a> https://github.com/mattboldt/typed.js/ </a>
     
 Library: <a> https://scrollrevealjs.org/ </a>
 
-<br><br>
+<br>
 
 <ul>
 
