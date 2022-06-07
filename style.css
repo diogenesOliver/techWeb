@@ -195,7 +195,22 @@ li {
     border-radius: 10px;
 }
 
-.info-about-plataform h2{
+.info-about-plataform .info {
+    font-family: Poppins;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.info-about-plataform .info h2{
     color: white;
     font-size: 80px;
+}
+
+.info-about-plataform .info p{
+    color: white;
+    font-size: 30px;
 }

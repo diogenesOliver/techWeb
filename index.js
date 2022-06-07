@@ -18,11 +18,17 @@ exploreButton.addEventListener('click', () => {
 ScrollReveal({
     origin: 'right',
     distance: '300px',
-    duration: 2000
-}).reveal('#phone-image');
+    duration: 1500
+}).reveal('.sub-plataform img');
 
 ScrollReveal({
     origin: 'left',
     distance: '300px',
-    duration: 2000
+    duration: 1500
 }).reveal('.content-about, .sub');
+
+ScrollReveal({
+    origin: 'bottom',
+    distance: '300px',
+    duration: 1500
+}).reveal('.info-about-plataform img, .info');
