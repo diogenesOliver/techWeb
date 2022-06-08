@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
     padding: 0;
@@ -8,13 +8,13 @@
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --button-enter: hsl(0, 0%, 100%);
-    --backgorund-default: linear-gradient(to right, rgb(0, 35, 80), rgb(18, 128, 218)); 
+    --backgorund-default: linear-gradient(to right, rgb(0, 35, 80), rgb(18, 128, 218));
     --backgorund-body: rgb(241, 239, 239);
 
     --title-color: hsl(250, 6%, 19%);
@@ -26,13 +26,13 @@ html{
     --width-vw: 100%
 }
 
-body{
+body {
     background: var(--backgorund-body);
-    font-family: Raleway;
+    font-family: Inter;
     overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -42,14 +42,14 @@ a{
     height: 900px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 
     transform: translateX(9%);
 }
 
-nav .wrapper{
+nav .wrapper {
     display: flex;
     align-items: center;
 }
@@ -65,6 +65,26 @@ li {
     margin: 75px;
     cursor: pointer;
     font-family: Poppins;
+}
+
+.links ul li a::after {
+    content: '';
+
+    width: 0%;
+    height: 2px;
+
+    background-color: white;
+
+    position: relative;
+    bottom: -20px;
+
+    display: block;
+
+    transition: width .2s;
+}
+
+.links ul li a:hover::after{
+    width: 100%;
 }
 
 .content {
@@ -103,14 +123,14 @@ li {
     margin-left: 1100px;
 }
 
-.container button{
+.container button {
     height: 40px;
     width: 150px;
     margin-left: 830px;
     border: none;
     outline: none;
     background-color: rgb(37, 131, 255);
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
 }
@@ -121,12 +141,12 @@ li {
 
 /* Plataform */
 
-.plataform{
+.plataform {
     margin-top: 100px;
     width: var(--width-vw);
 }
 
-.sub-plataform{
+.sub-plataform {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -134,7 +154,7 @@ li {
     gap: 200px;
 }
 
-.sub-plataform img{
+.sub-plataform img {
     width: 500px;
 
     border: var(--border-element);
@@ -143,7 +163,7 @@ li {
     padding: 20px;
 }
 
-.content-about{
+.content-about {
     width: 500px;
 
     border: var(--border-element);
@@ -152,14 +172,14 @@ li {
     padding: 20px;
 }
 
-.content-about h2{
+.content-about h2 {
     font-size: 30px;
     line-height: 1.5;
 
     color: var(--title-color);
 }
 
-.content-about p{
+.content-about p {
     color: var(--text-color);
 
     font-size: 20px;
@@ -172,7 +192,7 @@ li {
 
 /* Informações sobre a plataforma */
 
-.info-about-plataform{
+.info-about-plataform {
 
     background: var(--backgorund-default);
     height: 700px;
@@ -181,14 +201,14 @@ li {
 
     display: flex;
     flex-direction: row;
-    
+
     align-items: center;
     justify-content: space-around;
 
     gap: 20px;
 }
 
-.info-about-plataform img{
+.info-about-plataform img {
     height: 350px;
 
     padding: 20px;
@@ -205,12 +225,12 @@ li {
     gap: 40px;
 }
 
-.info-about-plataform .info h2{
+.info-about-plataform .info h2 {
     color: white;
     font-size: 80px;
 }
 
-.info-about-plataform .info p{
+.info-about-plataform .info p {
     color: white;
     font-size: 30px;
 }
