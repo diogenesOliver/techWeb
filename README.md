@@ -10,7 +10,7 @@
 
 <img 
 style='border-radius: 10px'
-src='./assets/Images_from_readme/first_image.png'
+src='./assets/Images_from_readme/first-image.png'
 />
 
 <br>

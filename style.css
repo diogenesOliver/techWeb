@@ -36,25 +36,24 @@ a {
     text-decoration: none;
 }
 
+/* Navigation */
+
 .container {
     background: var(--backgorund-default);
     width: var(--width-vw);
     height: 900px;
 }
 
-nav {
+nav{
     display: flex;
-    justify-content: space-between;
-
-    transform: translateX(9%);
-}
-
-nav .wrapper {
-    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+
+    height: 100px;
 }
 
-.wrapper img {
+nav img {
     width: 150px;
     cursor: pointer;
 }
@@ -87,13 +86,20 @@ li {
     width: 100%;
 }
 
+.content-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 10rem;
+}
+
 .content {
-    position: relative;
-    height: 500px;
-    width: 600px;
-    margin-left: 200px;
-    margin-top: 80px;
-    background: transparent
+    display: flex;
+    flex-direction: column;
+
+    gap: 4.4rem;
 }
 
 .content h2 span {
@@ -102,36 +108,35 @@ li {
 }
 
 .sub-text-content {
-    margin-top: 30px;
-    line-height: 40px;
+    line-height: 3rem;
 }
 
 .text-animation {
-    position: relative;
-    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
     font-size: 20px;
 }
 
-.text-animation h4 {
-    position: absolute;
-    margin-left: 10px;
-}
-
-.image {
-    position: absolute;
-    margin-top: -500px;
-    margin-left: 1100px;
+.image img{
+    height: 400px;
 }
 
 .container button {
     height: 40px;
     width: 150px;
+
+    margin-top: 10rem;
     margin-left: 830px;
+
     border: none;
     outline: none;
-    background-color: rgb(37, 131, 255);
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 20px;
+
+    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+
     cursor: pointer;
 }
 
@@ -234,3 +239,5 @@ li {
     color: white;
     font-size: 30px;
 }
+
+/* Responsividade */
