@@ -53,6 +53,11 @@ nav{
     height: 100px;
 }
 
+nav button.open-menu{
+    display: none;
+    background-color: transparent;
+}
+
 nav img {
     width: 150px;
     cursor: pointer;
@@ -127,7 +132,7 @@ li {
     width: 150px;
 
     margin-top: 10rem;
-    margin-left: 830px;
+    margin-left: 50%;
 
     border: none;
     outline: none;
@@ -287,14 +292,30 @@ li {
     font-weight: bold;
 }
 
-.card button{
+.button-buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-buy svg{
+    height: 30px;
+}
+
+.card .button-buy button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 50%;
 
     font-weight: bold;
     font-size: 15px;
 
     text-transform: uppercase;
 
-    background-color: green;
+    background-color: hsl(120, 100%, 25%);
     padding: .8rem;
 
     border: none;
@@ -305,8 +326,14 @@ li {
     transition: .3s;
 }
 
+.card .button-buy button p{
+    color: white;
+}
+
 .card button:hover{
     background-color: rgb(0, 83, 0);
 }
 
 /* Responsividade */
+
+@media (max-width: 1100px){}
