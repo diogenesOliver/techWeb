@@ -13,7 +13,21 @@ style='border-radius: 10px'
 src='./assets/Images_from_readme/first-image.png'
 />
 
+<br><br>
+
+<h2> Section (About) </h2>
+<p>By clicking on the "Saiba mais" button you are redirected to the "About" section</p>
+
 <br>
+
+<img 
+style='border-radius: 10px'
+src='./assets/Images_from_readme/about.png'
+/>
+
+<br><br><br>
+
+- <h3>This is a responsive website</h3>
 
 <h3> The following technologies are used in this project: </h3> <br>
 

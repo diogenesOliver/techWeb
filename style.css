@@ -336,4 +336,98 @@ li {
 
 /* Responsividade */
 
-@media (max-width: 1100px){}
+@media (max-width: 1100px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Display none */
+
+    nav .links, 
+    .content-main .image,
+    .container button:nth-child(3),
+    .sub-plataform img{
+        display: none;
+    }
+
+    /* Container */
+
+    .container{
+        background: transparent;
+    }
+
+    /* Navigation */
+
+    .container nav{
+        height: 8%;
+        width: 100%;
+
+        background: var(--backgorund-default);
+    }
+
+    .container nav img{
+        height: 100px;
+    }
+
+    .container nav button{
+        display: block;
+        margin-top: 0;
+    }
+
+    /* Conteudo principal */
+
+    .content-main{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .content{
+        gap: 2rem;
+    }
+
+    .content h2, h3, h4{
+        color: var(--text-color);
+    }
+
+    /* Plataforma */
+
+    .plataform{
+        margin-top: -20rem;
+    }
+
+    /* Info plataforma */
+
+    .info-about-plataform{
+        display: flex;
+        flex-direction: column;
+
+        height: 50rem;
+    }
+
+    .info-about-plataform img{
+        height: 230px;
+    }
+
+    .info-about-plataform .info p{
+        font-size: 20px;
+    }
+
+    /* Courses */
+
+    .courses{
+        padding: 0px;
+        margin-top: 2.4rem;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        padding-inline: 0px;
+        width: 99%;
+    }
+
+}
