@@ -139,3 +139,34 @@ body{
 .user-data svg{
     height: 20px;
 }
+
+/* Resposividade */
+
+@media (max-width: 1100px){
+
+    body{
+        overflow: hidden;
+    }
+
+    .login{
+        margin-top: 0;        
+    }
+
+    .login img:nth-child(2){
+        display: none;
+    }
+
+    .top-login img{
+        height: 50px;
+    }
+
+    .top-login h2{
+        font-size: 20px;
+    }
+
+    .user-data{
+        padding-bottom: 100%;
+        border-radius: 0;
+    }
+
+}
