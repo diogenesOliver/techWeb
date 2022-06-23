@@ -338,11 +338,11 @@ li {
 
 footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
     justify-content: space-around;
-    text-align: center;
+    text-align: left;
 
     margin-top: 10rem;
 
@@ -467,6 +467,12 @@ footer p{
     /* Footer */
 
     footer .social-links{
+        flex-direction: column;
+        justify-content: space-between;
+
+        gap: 2rem;
+        
+        margin-left: 2rem;
         width: 60%;
     }
 

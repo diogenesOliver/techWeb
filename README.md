@@ -16,13 +16,25 @@ src='./assets/Images_from_readme/first-image.png'
 <br><br>
 
 <h2> Section (About) </h2>
-<p>By clicking on the "Saiba mais" button you are redirected to the "About" section</p>
+<p>By clicking on the "Learn more" button you are redirected to the "About" section, <br> here you can learn more about us and understand who we are and what we do</p>
 
 <br>
 
 <img 
 style='border-radius: 10px'
 src='./assets/Images_from_readme/about.png'
+/>
+
+<br><br>
+
+<h2> Section (Platform information) </h2>
+<p>In this section you can see information about the platform, <br> how many professionals are available and the number of courses</p>
+
+<br>
+
+<img 
+style='border-radius: 10px'
+src='./assets/Images_from_readme/info-about-plataform.png'
 />
 
 <br><br><br>
