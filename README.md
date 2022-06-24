@@ -40,8 +40,8 @@ src='./assets/Images_from_readme/info-about-plataform.png'
 
 <br><br>
 
-<h2> Section (About) </h2>
-<p>By clicking on the "Learn more" button you are redirected to the "About" section, <br> here you can learn more about us and understand who we are and what we do</p>
+<h2> Section (Courses available on plataform) </h2>
+<p>In this section you can see the courses available to you and more information such as price and required experience level. You see several courses available by categories. From Frontend to Backend, Frameworks, Git, TypeScript and more.</p>
 
 <br>
 
