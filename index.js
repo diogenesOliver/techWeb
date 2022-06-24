@@ -1,5 +1,6 @@
 let titleInfo = document.getElementById('text')
 let exploreButton = document.getElementById('btn')
+let expandedMenu = document.getElementById('expandedMenu')
 
 let typed = new Typed(titleInfo, {
     strings:['JavaScript', 'NodeJS', 'TypeScript', 'ReactJS'],
@@ -32,3 +33,4 @@ ScrollReveal({
     distance: '300px',
     duration: 1500
 }).reveal('.info-about-plataform img, .info');
+

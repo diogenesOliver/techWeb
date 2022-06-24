@@ -377,6 +377,10 @@ footer p{
         padding: 0;
     }
 
+    body{
+        box-sizing: border-box;
+    }
+
     /* Display none */
 
     nav .links, 
@@ -456,6 +460,7 @@ footer p{
     }
 
     .cards{
+        box-sizing: border-box;
         flex-direction: column;
     }
 
@@ -466,14 +471,27 @@ footer p{
 
     /* Footer */
 
-    footer .social-links{
+    footer{
+        display: flex;
         flex-direction: column;
+        justify-content: space-around;
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+    footer .social-links{
+        flex-direction: row;
         justify-content: space-between;
 
         gap: 2rem;
         
-        margin-left: 2rem;
         width: 60%;
+    }
+
+    footer p{
+        font-size: 13px;
     }
 
 }
