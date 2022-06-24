@@ -37,6 +37,19 @@ style='border-radius: 10px'
 src='./assets/Images_from_readme/info-about-plataform.png'
 />
 
+
+<br><br>
+
+<h2> Section (About) </h2>
+<p>By clicking on the "Learn more" button you are redirected to the "About" section, <br> here you can learn more about us and understand who we are and what we do</p>
+
+<br>
+
+<img 
+style='border-radius: 10px'
+src='./assets/Images_from_readme/courses.png'
+/>
+
 <br><br><br>
 
 - <h3>This is a responsive website</h3>
