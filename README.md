@@ -1,11 +1,3 @@
-<style> 
-    @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-    h1, h2, p{
-        font-family: Inter;
-    }
-</style>
-
 <h1>[PROJECT IN PROGRESS...]</h1>
 
 <p> The objective of this project is to create the page of an online course platform for developers. </p>
