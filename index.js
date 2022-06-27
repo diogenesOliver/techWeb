@@ -1,6 +1,10 @@
 let titleInfo = document.getElementById('text')
 let exploreButton = document.getElementById('btn')
-let expandedMenu = document.getElementById('expandedMenu')
+
+let openMenu = document.getElementById('openMenu')
+let closeMenu = document.getElementById('closeMenu')
+
+let linkExpanded = document.getElementById('linkExpanded')
 
 let typed = new Typed(titleInfo, {
     strings:['JavaScript', 'NodeJS', 'TypeScript', 'ReactJS'],
@@ -34,3 +38,19 @@ ScrollReveal({
     duration: 1500
 }).reveal('.info-about-plataform img, .info');
 
+openMenu.addEventListener('click', () => {
+    linkExpanded.style.display = 'block'
+    openMenu.style.display = 'none'
+    closeMenu.style.display = 'block'
+
+    text.style.display = 'none'
+
+})
+
+closeMenu.addEventListener('click', () => {
+    linkExpanded.style.display = 'none'
+    openMenu.style.display = 'block'
+    closeMenu.style.display = 'none'
+
+    text.style.display = 'block'
+})
