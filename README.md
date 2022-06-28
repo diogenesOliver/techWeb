@@ -57,10 +57,6 @@ src='./assets/Images_from_readme/courses.png'
 
 <br>
 
-Project URL: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
-
-<br>
-
 <h3> The following technologies are used in this project: </h3> <br>
 
 CDN: <a> https://github.com/mattboldt/typed.js/ </a>
