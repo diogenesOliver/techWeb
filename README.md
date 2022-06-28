@@ -55,11 +55,11 @@ src='./assets/Images_from_readme/courses.png'
 
 - <h4>This is a responsive website</h4>
 
-<br><br>
+<br>
 
 Project URL: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
 
-<br><br>
+<br>
 
 <h3> The following technologies are used in this project: </h3> <br>
 
