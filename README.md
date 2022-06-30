@@ -1,4 +1,4 @@
-<h1>[PROJECT IN PROGRESS...]</h1>
+<h1>[README IN PROGRESS...]</h1>
 
 <p> The objective of this project is to create the page of an online course platform for developers. </p>
 
@@ -78,5 +78,3 @@ Library: <a> https://scrollrevealjs.org/ </a>
 <ul>
 
 <br>
-
-Project contributor - (Diógenes Ribeiro de Oliveira) - [Visit my Linkedin](https://www.linkedin.com/in/diogenesriboliveira/)
