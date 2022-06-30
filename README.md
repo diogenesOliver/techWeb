@@ -57,7 +57,7 @@ src='./assets/Images_from_readme/courses.png'
 
 <br>
 
-URL Project: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
+URL Link: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
 
 <br>
 
