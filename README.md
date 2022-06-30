@@ -55,6 +55,10 @@ src='./assets/Images_from_readme/courses.png'
 
 - <h3>This is a responsive website</h3>
 
+<br>
+
+URL Project: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
+
 <h3> The following technologies are used in this project: </h3> <br>
 
 CDN: <a> https://github.com/mattboldt/typed.js/ </a>
