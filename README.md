@@ -51,19 +51,25 @@ style='border-radius: 10px'
 src='./assets/Images_from_readme/courses.png'
 />
 
-<br><br><br>
+<br><br>
 
-- <h3>This is a responsive website</h3>
+- <h4>This is a responsive website</h4>
+
+<br>
+
+URL Link: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
+
+<br>
 
 <h3> The following technologies are used in this project: </h3> <br>
 
 CDN: <a> https://github.com/mattboldt/typed.js/ </a>
-    
+
 Library: <a> https://scrollrevealjs.org/ </a>
 
 <br>
 
-<ul>
+<ul>                                                                               
 
     - HTML
     - CSS
