@@ -51,9 +51,20 @@ style='border-radius: 10px'
 src='./assets/Images_from_readme/courses.png'
 />
 
-<br><br><br>
+<br><br>
 
-- <h3>This is a responsive website</h3>
+- <h4>This is a responsive website</h4>
+
+<br>
+
+<img src='./assets/Images_from_readme/tech_01.png' style='height: 400px'/>
+<img src='./assets/Images_from_readme/tech_02.png' style='height: 400px'/>
+<img src='./assets/Images_from_readme/tech_03.png' style='height: 400px'/>
+<img src='./assets/Images_from_readme/tech_04.png' style='height: 400px'/>
+<img src='./assets/Images_from_readme/tech_05.png' style='height: 400px'/>
+<img src='./assets/Images_from_readme/tech_06.png' style='height: 400px'/>
+
+<br>
 
 <br>
 
@@ -62,12 +73,12 @@ URL Project: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
 <h3> The following technologies are used in this project: </h3> <br>
 
 CDN: <a> https://github.com/mattboldt/typed.js/ </a>
-    
+
 Library: <a> https://scrollrevealjs.org/ </a>
 
 <br>
 
-<ul>
+<ul>                                                                               
 
     - HTML
     - CSS
