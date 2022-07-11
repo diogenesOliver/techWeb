@@ -1,4 +1,4 @@
-<h1>[PROJECT IN PROGRESS...]</h1>
+<h1>[README IN PROGRESS...]</h1>
 
 <p> The objective of this project is to create the page of an online course platform for developers. </p>
 
@@ -66,6 +66,10 @@ src='./assets/Images_from_readme/courses.png'
 
 <br>
 
+<br>
+
+URL Project: <a> https://cheerful-squirrel-3098a2.netlify.app </a>
+
 <h3> The following technologies are used in this project: </h3> <br>
 
 CDN: <a> https://github.com/mattboldt/typed.js/ </a>
@@ -81,7 +85,3 @@ Library: <a> https://scrollrevealjs.org/ </a>
     - JavaScript
 
 <ul>
-
-<br>
-
-Project contributor - (Diógenes Ribeiro de Oliveira) - [Visit my Linkedin](https://www.linkedin.com/in/diogenesriboliveira/)
